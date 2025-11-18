@@ -1,1 +1,57 @@
-/*CSS for my calculator */
+/*CSS*/
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+div#wrapper {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+}
+div#wrapper div#calculator{
+    background-color: rgb(111, 217, 84);
+    padding: 20px;
+    width: 15%;
+    border-radius: 8px;
+}
+div#wrapper div#calculator section#display{
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px; 
+}
+div#wrapper section#display p#displayText{
+    font-size: 20px;
+    text-align: right;
+}
+div#wrapper section#display p#displayText{
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;
+    margin: 0;
+}
+div#wrapper div#calculator section#buttons{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+div#wrapper div#calculator section#buttons section#numberButtons{
+    display: flex;
+    flex-wrap: wrap;
+}
+div#wrapper div#calculator section#buttons section#numberButtons button{
+    flex-basis: 30%;
+    margin: 2px;
+    font-size: 20px;
+}
+div#wrapper div#calculator section#buttons section#operatorButtons{
+    display: flex;
+    flex-wrap: wrap; 
+}
+div#wrapper div#calculator section#buttons section#operatorButtons button{
+    flex-basis: 90%;
+    font-size: 20px;
+    margin: 2px;
+}
