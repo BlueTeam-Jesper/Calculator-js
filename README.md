@@ -1,6 +1,6 @@
 # Calculator
--- WORK IN PROGRESS --
-A simple JavaScript calculator
+
+A simple JavaScript calculator in progress
 
 ## Features
 - Basic structure (HTML, CSS, JS)
@@ -8,12 +8,15 @@ A simple JavaScript calculator
 - Simple and clean user interface
 
 ## Planned Features
-- Style Update
-- logic update
 - Decimal support
 - Keyboard input
 - Responsive layout for desktop and mobile
 - Animations on button clicks
+
+## TODO
+- Upgrade the style
+- Upgrade the functions
+  
 
 
 
